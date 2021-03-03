@@ -90,7 +90,10 @@ a {
   margin-top: 0px;
 }
 
-a hover {
+a:hover.svetla {
     background-color: #0b7bc1;
 }
 
+a:hover.FB {
+    background-color: #2b406e;
+}
