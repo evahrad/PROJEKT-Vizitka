@@ -54,15 +54,19 @@ p {
   padding: 30px;
   margin: auto;
   border-radius: 10px;
+  position: relative;
+  box-shadow: 5px 5px 5px rgba(104, 103, 103, 0.473);
 }
 
 img {
   border-radius: 50%;
   border: 3px solid white;
   width: 150px;
-  position: relative;
-  left: 445px;
-  top: -100px;
+  position: absolute;
+  margin: auto;
+  right: -75px;
+  top: -75px;
+  box-shadow: 5px 5px 5px rgba(104, 103, 103, 0.473);
 }
 
 a {
@@ -85,3 +89,8 @@ a {
   background-color: #1da1f2;
   margin-top: 0px;
 }
+
+a hover {
+    background-color: #0b7bc1;
+}
+
